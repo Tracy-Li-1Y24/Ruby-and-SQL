@@ -67,5 +67,5 @@ puts amazon.inspect
 # 7. delete a row
 
 twitter = Company.find_by({"name" => "Twitter"})
-twitter.destroy
+twitter.destroy 
 puts "There are #{Company.all.count} companies"
